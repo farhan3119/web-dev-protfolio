@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+/* Sheard Style */
+
+.text-primary {
+  color: #fd6e0a;
+}
+.secondary-bg {
+  background-color: #fdf7f2;
+}
+.dark-2 {
+  color: #484848;
+}
+
+.btn-primary {
+  background-color: #fc6f12;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-discription {
+  font-size: 18px;
+  color: #757575;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* header Style */
+.header {
+
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.header-container {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+
+}
+
+/* Nav Styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 230px;
+  margin-bottom: 70px;
+
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Banner Style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 230px;
+}
+
+.banner-content {
+  max-width: 580px;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner-drescription{
+  margin-bottom: 20px;
+}
+
+.banner-porfile-pic {
+  width: 580px;
+}
+
+/* Main Style */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+/* About Style */
+
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about .section-title {
+  margin: 20px;
+}
+
+.about .section-discription{
+  margin: 20px;
+}
+
+.item-driscription {
+  font-weight: 600;
+}
+
+/* Skill Style Start */
+
+.skills-container {
+  display: flex;
+  gap: 10px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
+}
+
+.skills .section-drescription{
+  margin-bottom: 20px;
+}
+
+/* Resume Section Style Start */
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+
+.exprence-sub-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.exprence-discriotion {
+  color: #757575;
+}
+
+.resume .section-title{
+  margin-bottom: 20px;
+}
+
+.resume hr {
+  margin: 30px 5px;
+}
+
+.resume-downdoad-cv {
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  gap: 100px;
+  padding: 130px 230px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.footer-column .section-title{
+  margin-bottom: 20px;
+}
+
+.footer-column .section-discription{
+  margin-bottom: 20px;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px 20px;
+  display: block;
+  margin-bottom: 24px;
+  border: none;
+}
