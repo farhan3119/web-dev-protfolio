@@ -62,3 +62,104 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
 }
+/*bammer*/
+.banner-greetings{
+    font-size:45px ;
+    font-weight: 600;
+}
+.banner-titel{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-prfile-pic{
+    width: 580px;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.section-titel{
+    border-radius: 10px ;
+    justify-content: center;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+.text-center{
+
+}
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+    box-shadow: 0px 6px 50px 0px black;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experince-description,.experince-sub-titel{
+    color: rgb(112, 111, 111);
+}
+.experince-sub-titel{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5x;
+    margin-left: 100px;
+
+
+}
+.resume-downlad-cv{
+    margin-top: 50px;
+   text-align: center;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: wheat;
+    display: block;
+    width:100%;
+    padding:10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+
+
